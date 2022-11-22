@@ -183,6 +183,13 @@
 				</includes>
 				<filtering>false</filtering>
 			</resource>
+			<resource>
+				<!--资源文件的路径-->
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+			</resource>
 		</resources>
 	</build>
 
